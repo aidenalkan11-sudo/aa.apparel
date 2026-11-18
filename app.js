@@ -1,8 +1,8 @@
 const PRODUCTS=[
-{id:'1954-jeans',name:'1954 Jeans',price:40,meta:'Brand new',description:'A clean denim staple with a relaxed silhouette.',image:'',source:'https://www.depop.com/products/ce2qu-1954-jeans-brand-new-with-1e41/'},
-{id:'super-baggy-blue-denim',name:'Super Baggy Blue Denim Jeans',price:40,meta:'Super baggy',description:'Super baggy blue denim with an oversized streetwear fit.',image:'',source:'https://www.depop.com/products/ce2ax-super-baggy-blue-denim-jeans-8fd1/'},
-{id:'baggy-blue-jeans',name:'Baggy Blue Jeans',price:40,meta:'Baggy fit',description:'Classic baggy blue denim with an easy everyday fit.',image:'',source:'https://www.depop.com/products/cr2au-baggy-blue-jeans-baggy-fit-16ba/'},
-{id:'baggy-wide-leg-blue-jeans',name:'Baggy Wide Leg Blue Jeans',price:40,meta:'Wide leg',description:'Wide-leg blue denim with a loose, modern silhouette.',image:'',source:'https://www.depop.com/products/ce2gu-baggy-wide-leg-blue-jeans-148b/'}
+{id:'1954-jeans',name:'1954 Jeans',price:40,meta:'Brand new',description:'A clean denim staple with a relaxed silhouette.',image:'https://media-photos.depop.com/r1/437178297/5159061941_556a78a5621b431a94ea54bd1f28e375/P0.jpg',source:'https://www.depop.com/products/ce2qu-1954-jeans-brand-new-with-1e41/'},
+{id:'super-baggy-blue-denim',name:'Super Baggy Blue Denim Jeans',price:40,meta:'Super baggy',description:'Super baggy blue denim with an oversized streetwear fit.',image:'https://media-photos.depop.com/r1/437178297/5159013473_a01ed622dd0a4b2f997531b3b747c56b/P0.jpg',source:'https://www.depop.com/products/ce2ax-super-baggy-blue-denim-jeans-8fd1/'},
+{id:'baggy-blue-jeans',name:'Baggy Blue Jeans',price:40,meta:'Baggy fit',description:'Classic baggy blue denim with an easy everyday fit.',image:'https://media-photos.depop.com/r1/437178297/5076927163_47195dd7bcc94c868afca1fb2c67962f/P0.jpg',source:'https://www.depop.com/products/cr2au-baggy-blue-jeans-baggy-fit-16ba/'},
+{id:'baggy-wide-leg-blue-jeans',name:'Baggy Wide Leg Blue Jeans',price:40,meta:'Wide leg',description:'Wide-leg blue denim with a loose, modern silhouette.',image:'https://media-photos.depop.com/r1/437178297/5076963730_ec201cc068fc409b8caef87be0f44381/P0.jpg',source:'https://www.depop.com/products/ce2gu-baggy-wide-leg-blue-jeans-148b/'}
 ];
 const app=document.querySelector('#app');
 const money=n=>`A$${n.toFixed(2)}`;
